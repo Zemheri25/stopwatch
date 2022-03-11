@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+body {
+    background-image: linear-gradient(120deg,#d4b757, #d6795f);
+}
+
+.counter {
+    
+
+    width: 15rem;
+    margin: 10rem auto 0rem;
+    font-size: 1.5rem;
+}
+
+.buttons {
+    
+    width: 15rem;
+    margin: 2rem auto;
+}
+
+#startbutton {
+    width: 45%;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    box-shadow: 4px 4px 10px white;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(120deg,#d4b757, #d6795f);
+}
+
+#resetbutton {
+    width: 45%;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    box-shadow: 4px 4px 10px white;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(120deg,#d4b757, #d6795f);
+}
+#startbutton:hover , #resetbutton:hover {
+    box-shadow: 1px 1px 10px white;
+    
+}
